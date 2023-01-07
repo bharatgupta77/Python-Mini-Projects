@@ -32,7 +32,7 @@ while (carry_on):
         correct_word = TextBlob(word).correct()
         print("The corrected word is : " + str(correct_word))
 
-    play_again = input("Do you want to continue, y-Yes/n-No : ")
+    play_again = input("Do you want to continue, y-Yes/any letter - No : ")
     if (play_again == "y"):
         carry_on = True
     else:

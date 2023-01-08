@@ -7,4 +7,5 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
      Spelling correction is based on Peter Norvig’s “How to Write a Spelling Corrector”as implemented in the pattern library. It is about 70% accurate. For more details, please check following documentation - https://textblob.readthedocs.io/en/dev/quickstart.html.
   4. MP4 to MP3 converter using MoviePy.
   5. Email Slicer (Getting username and domain name).
+  6. Barcode Generator.
 

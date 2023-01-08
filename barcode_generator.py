@@ -9,7 +9,7 @@ from barcode.writer import ImageWriter
 
 try:
     # Make sure to pass the number as string
-    number = '7901678412347'
+    number = '8903454126727'
 
     # Since we are creating a EAN13 barcode, appropriate barcode format needs to be used
     barcode_format = barcode.get_barcode_class('ean13')

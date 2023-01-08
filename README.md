@@ -9,4 +9,8 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
   5. Email Slicer (Getting username and domain name).
   6. Barcode Generator.
   7. QR code Generator.
+     For mini-project 6 and 7 , Some of the reference links I referred :
+     - https://www.geeksforgeeks.org/generate-qr-code-using-qrcode-in-python/
+     - https://geekyhumans.com/generating-qr-codes-and-barcodes-in-python/
+     These have detailed explaination as well.
 

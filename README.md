@@ -8,4 +8,5 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
   4. MP4 to MP3 converter using MoviePy.
   5. Email Slicer (Getting username and domain name).
   6. Barcode Generator.
+  7. QR code Generator.
 

@@ -16,4 +16,5 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
        - https://geekyhumans.com/generating-qr-codes-and-barcodes-in-python/.
        
      These articles have detailed explaination as well.
+  8. Desktop Notification (only macOS for now).
 

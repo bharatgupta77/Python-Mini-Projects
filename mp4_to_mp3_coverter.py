@@ -7,6 +7,14 @@ import os
 
 """
 function for coverting mp4 to mp3
+
+Note: if you are getting this error - RuntimeError: No ffmpeg exe could be found. Install ffmpeg on your system, or set the IMAGEIO_FFMPEG_EXE environment variable.
+
+Steps to fix this on mac (using brew) -> 
+- install brew 
+- brew install ffmpeg 
+
+fixed issue for me :) . For other operating system check stack overflow.
 """
 
 

@@ -19,4 +19,5 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
   8. Desktop Notification with sound (only macOS for now).
        
        Referred Doc (commands and sound part)- https://alvinalexander.com/mac-os-x/how-to-fire-mac-notifications-applescript-scala-java/
+  9. Countdown Timer 
 

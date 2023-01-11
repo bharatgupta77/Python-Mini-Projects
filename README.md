@@ -20,5 +20,5 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
        
        Referred Doc (commands and sound part)- https://alvinalexander.com/mac-os-x/how-to-fire-mac-notifications-applescript-scala-java/
   9. Countdown Timer 
-  10. URL Shortner using Bitly.
+  10. Url Shortner using Bitly.
 

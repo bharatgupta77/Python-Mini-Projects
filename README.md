@@ -22,4 +22,5 @@ Developed Mini Projects Of Python to enhance understanding of the python, its co
   9. Countdown Timer 
   10. Url Shortner using Bitly.
   11. Screenshot Capture using Pyscreenshot.
+  12. Currency Converter 
 

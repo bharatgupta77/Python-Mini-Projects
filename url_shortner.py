@@ -13,4 +13,4 @@ url = input("Enter the url you wish to shorten: ").strip()
 shorten_url = connection.shorten(url)
 
 # print shorten url
-print(shorten_url.get('url'))
+print("shorten url is " + shorten_url.get('url'))

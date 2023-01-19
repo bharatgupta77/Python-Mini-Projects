@@ -4,7 +4,7 @@ import platform
 
 def display_notification(text, title, sound):
     operating_system = platform.system()
-
+    # Darwin -> MacOS
     if operating_system == 'Darwin':
         cmd = """osascript -e 'display notification "{}" with title "{}" sound name "{}"'""".format(
             text, title, sound)

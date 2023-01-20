@@ -6,7 +6,7 @@ try:
 
     # Creating an instance of QRCode class
     qr_obj = qrcode.QRCode(version=1,
-                           box_size=10,
+                           box_size=7,
                            border=2)
 
     # Adding data to the instance 'qr'

@@ -1,7 +1,9 @@
 import os
 import platform
 
-
+"""
+used osascript command to display notification
+"""
 def display_notification(text, title, sound):
     operating_system = platform.system()
     # Darwin -> MacOS

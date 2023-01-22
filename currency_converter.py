@@ -34,13 +34,30 @@ def currency_Converter_tool():
     l2.grid(row=1, column=0, sticky="w", pady=2, padx=2)
 
     # this is the combobox for holding from_currencies
-    e1 = tk.Combobox(child_frame, font=('Poppins 10 bold'))
+    e1 = tk.Combobox(child_frame)
     # this is the combobox for holding to_currencies
-    e2 = tk.Combobox(child_frame, font=('Poppins 10 bold'))
+    e2 = tk.Combobox(child_frame)
 
     # this will arrange entry widgets
     e1.grid(row=0, column=1, pady=2)
     e2.grid(row=1, column=1, pady=2)
+
+    # the label for AMOUNT
+    amount_label = t.Label(child_frame, text='AMOUNT:')
+    amount_label.grid(row=2, column=0, sticky="w", pady=2, padx=2)
+
+    # entry for amount
+    amount_entry = t.Entry(child_frame)
+    amount_entry.grid(row=2, column=1, pady=2, sticky="nsew")
+
+    # the label for Coverted Amount
+    amount_coverted_label = t.Label(child_frame, text='CONVERTED AMOUNT:')
+    amount_coverted_label.grid(row=3, column=0, columnspan=2,
+                               sticky="nsew", pady=2, padx=20)
+
+    amount_coverted_label_1 = t.Label(child_frame, text="")
+    amount_coverted_label_1.grid(row=4, column=0, columnspan=2,
+                                 sticky="nsew", pady=2, padx=20)
 
     convert_btn = t.Button(parent_frame, bg="red", text="Convert")
     convert_btn.pack()

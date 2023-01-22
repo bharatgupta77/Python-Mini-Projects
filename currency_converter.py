@@ -1,4 +1,3 @@
-import currency_converter
 import tkinter as t
 import tkinter.ttk as tk
 

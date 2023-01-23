@@ -2,7 +2,7 @@ import tkinter as t
 import tkinter.ttk as tk
 
 
-def currency_Converter_tool():
+def currency_converter_tool():
     # create the main window
     window = t.Tk(screenName=None, baseName=None, className='window', useTk=1)
     window.geometry("540x420")

@@ -50,14 +50,14 @@ def currency_converter_tool():
     amount_entry = t.Entry(child_frame)
     amount_entry.grid(row=2, column=1, pady=2, sticky="nsew")
 
-    # the label for Coverted Amount
-    amount_coverted_label = t.Label(child_frame, text='CONVERTED AMOUNT:')
-    amount_coverted_label.grid(row=3, column=0, columnspan=2,
-                               sticky="nsew", pady=2, padx=20)
+    # the label for Converted Amount
+    amount_converted_label = t.Label(child_frame, text='CONVERTED AMOUNT:')
+    amount_converted_label.grid(row=3, column=0, columnspan=2,
+                                sticky="nsew", pady=2, padx=20)
 
-    amount_coverted_label_1 = t.Label(child_frame, text="")
-    amount_coverted_label_1.grid(row=4, column=0, columnspan=2,
-                                 sticky="nsew", pady=2, padx=20)
+    amount_converted_label_1 = t.Label(child_frame, text="")
+    amount_converted_label_1.grid(row=4, column=0, columnspan=2,
+                                  sticky="nsew", pady=2, padx=20)
 
     convert_btn = t.Button(parent_frame, bg="red", text="Convert")
     convert_btn.pack()
